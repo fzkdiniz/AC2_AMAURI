@@ -1,0 +1,31 @@
+<!-- RA 235965 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contador de Palavras</title>
+    </head>
+    <body>
+        <h1>Contador de Palavras</h1>
+        <p>Digite seu texto abaixo:</p>
+        <textarea id="texto" rows="5" cols="50"></textarea>
+        <br>
+        <button onclick="contarPalavras()">Contar Palavras</button>
+        <p id="resultado"></p>
+
+        <script>
+        function contarPalavras() {
+            let texto = document.getElementById('texto').value;
+            let palavras = texto.split(' ');
+            let contagem = palavras.length;
+
+            if (contagem === 0) {
+                document.getElementById('resultado').innerHTML = "Nenhuma palavra foi digitada.";
+            } else {
+                document.getElementById('resultado').innerHTML = "O texto contém " + contagem + " palavras.";
+            }
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!-- RA 235965 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Tarefas</title>
+    </head>
+    <body>
+        <h1>Minha Lista de Tarefas</h1>
+
+        <div id="adicionarTarefa">
+            <input type="text" id="novaTarefa" placeholder="Digite sua tarefa">
+            <button onclick="adicionarTarefa()">Adicionar</button>
+        </div>
+
+        <ul id="listaTarefas"></ul>
+
+        <script>
+        function adicionarTarefa() {
+            var novaTarefa = document.getElementById("novaTarefa").value;
+            if (novaTarefa) {
+                var lista = document.getElementById("listaTarefas");
+                var item = document.createElement("li");
+                item.textContent = novaTarefa;
+                lista.appendChild(item);
+
+                // Limpa o campo de entrada
+                document.getElementById("novaTarefa").value = "";
+            }
+        }
+    </script>
+    </body>
+</html>
