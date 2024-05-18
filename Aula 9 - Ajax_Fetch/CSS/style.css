@@ -1,0 +1,88 @@
+/* RA 235965*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.main-title {
+    text-transform: uppercase;
+    background-color: #1b1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 1px solid;
+}
+.menu-content {   
+    background-color: #fff;
+    display: flex;
+    height: 900px;
+    
+}
+.menu-navigation {
+    background-color: #383838;
+    justify-content: start;
+}
+
+
+.menu-navigation ul {
+    padding: .5rem 0;
+    width: 250px;
+    margin-left: 0;
+    
+}
+
+.menu-navigation li{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #0004ff;
+    padding: 1.5rem 2rem;
+    font-size: 1.3rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 200px;
+    align-items: center;
+    opacity: 1;    
+}
+
+.menu-navigation li:hover {
+    opacity: .8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+}
+
+.menu-navigation a{
+    
+    text-decoration: none;    
+    color: #fff;
+    padding: .5rem;
+    
+}
+
+main {
+   
+    width: 100% auto;
+    padding: 3rem;
+}
+
+.section-main {
+    
+    margin: 50px 90px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+
+
+
+
+
+
