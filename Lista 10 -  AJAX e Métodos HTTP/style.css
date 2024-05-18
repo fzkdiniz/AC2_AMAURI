@@ -1,0 +1,140 @@
+* {
+    margin: 0%;
+}
+
+#Logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 10%;
+    padding: 10px 10px;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/technology-background_23-2148119854.jpg?t=st=1715998201~exp=1716001801~hmac=f8d263d106a729966abbf5d10ecaa1d715dd5a6cfedbfe33a3c1354706a13abb&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    margin-left: 36%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+#form {
+    margin-left: 40%;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#nome {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#cpf {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#rg {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#data {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 303px;
+    height: 40px;
+}
+
+#habilitacao {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 308px;
+    height: 40px;
+}
+
+#es {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 308px;
+    height: 40px;
+}
+
+#cep {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#rua {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#bairro {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#estado {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#city {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#numero {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#complemento {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+}
+
+#botao {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 40px;
+    margin-left: 13%;
+    border: none;
+    background-color: #ff4e4e;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+#botao:hover {
+    background-color: #ff0000;
+    color: white;
+}
